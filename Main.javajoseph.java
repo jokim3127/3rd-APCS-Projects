@@ -58,14 +58,26 @@ class Main {
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
-
-
-
+    
+    for(int num = 1; num<=100; num = num +2){
+      System.out.println(num);
+      
+      }
+    
     //All multiples of 3 from 1 to 100
 
+    for(int count = 3; count<=100; count=count+3)
+      System.out.println(count);
 
-
+    
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
-  }
+      for(int counter = 1000;counter>=0; counter=counter-10)
+        System.out.print(counter +"-");
+
+
+
+
+
+      }
 }
